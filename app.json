@@ -1,0 +1,19 @@
+
+{
+   "name":"Bot-Haven",
+   "description":"A WhatsApp Bot With Multi Device Supported",
+   "keywords":[
+      "bot",
+      "whatsapp"
+   ],
+   "website":"https://github.com/Kry9toN/Bot-Haven#readme",
+   "repository":"https://github.com/Kry9toN/Bot-Haven.git",
+   "logo":"https://i.ibb.co/mzcSXdy/koboo.png",
+   "success_url":"/",
+   "env":{
+      "NAME":{
+         "description":"Name of your bot",
+         "required":true
+       } 
+      }
+  } 
