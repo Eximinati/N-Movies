@@ -166,6 +166,7 @@
     "*.{tsx,ts,jsx,js}": "npm run lint"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=18",
+    "npm": "10.2.3"
   }
 }
