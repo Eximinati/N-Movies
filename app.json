@@ -1,41 +1,42 @@
 {
-  "name": "Small Sharp Tool",
-  "description": "This app does one little thing, and does it well.",
-  "keywords": [
-    "productivity",
-    "HTML5",
-    "scalpel"
-  ],
-  "website": "https://small-sharp-tool.com/",
-  "repository": "https://github.com/jane-doe/small-sharp-tool",
-  "logo": "https://small-sharp-tool.com/logo.svg",
-  "success_url": "/welcome",
-  "scripts": {
-    "postdeploy": "bundle exec rake bootstrap"
-  },
-  "env": {
-    "NODE_ENV": {
-      "description": "Node.js environment",
-      "value": "production"
-    },
-    "PORT": {
-      "description": "Port for the app to run on",
-      "value": 3000
-    },
-    "SUPABASE_DEV_URL": {
-      "description": "Supabase development URL",
-      "value": "https://dfrrijclhftnvrzawagb.supabase.co"
-    },
-    "SUPABASE_DEV_KEY": {
-      "description": "Supabase development key",
-      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmcnJpamNsaGZ0bnZyemF3YWdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTY4Njc2NjUsImV4cCI6MjAxMjQ0MzY2NX0.ZjNhPhXtB9JE-cya3WJeCqMEeauLxQbHlDIuwHYl7e0"
-    },
-    "TMDB_API_KEY": {
-      "description": "TMDB API key",
-      "value": "ebf0b69d7a3e3a45904485dadcb07eac"
-    },
-    "RESPONSIVE_IMAGES": {
-      "description": "Responsive images configuration",
-      "value": "ON"
-    }
-  }
+   "name": "Small Sharp Tool",
+   "description": "This app does one little thing, and does it well.",
+   "keywords": [
+     "productivity",
+     "HTML5",
+     "scalpel"
+   ],
+   "website": "https://small-sharp-tool.com/",
+   "repository": "https://github.com/jane-doe/small-sharp-tool",
+   "logo": "https://small-sharp-tool.com/logo.svg",
+   "success_url": "/welcome",
+   "scripts": {
+     "postdeploy": "bundle exec rake bootstrap"
+   },
+   "env": {
+     "NODE_ENV": {
+       "description": "Node.js environment",
+       "value": "production"
+     },
+     "PORT": {
+       "description": "Port for the app to run on",
+       "value": 3000
+     },
+     "SUPABASE_DEV_URL": {
+       "description": "Supabase development URL",
+       "value": "https://dfrrijclhftnvrzawagb.supabase.co"
+     },
+     "SUPABASE_DEV_KEY": {
+       "description": "Supabase development key",
+       "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmcnJpamNsaGZ0bnZyemF3YWdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTY4Njc2NjUsImV4cCI6MjAxMjQ0MzY2NX0.ZjNhPhXtB9JE-cya3WJeCqMEeauLxQbHlDIuwHYl7e0"
+     },
+     "TMDB_API_KEY": {
+       "description": "TMDB API key",
+       "value": "ebf0b69d7a3e3a45904485dadcb07eac"
+     },
+     "RESPONSIVE_IMAGES": {
+       "description": "Responsive images configuration",
+       "value": "ON"
+     }
+   }
+} 
