@@ -9,6 +9,7 @@
    "website": "https://small-sharp-tool.com/",
    "repository": "https://github.com/jane-doe/small-sharp-tool",
    "logo": "https://avatars.githubusercontent.com/u/72595444?v=4",
+   "success_url": "/",
    "env": {
      "SUPABASE_DEV_URL": {
        "description": "Supabase development URL",
