@@ -1,19 +1,30 @@
-
 {
-   "name":"Bot-Haven",
-   "description":"A WhatsApp Bot With Multi Device Supported",
-   "keywords":[
-      "bot",
-      "whatsapp"
-   ],
-   "website":"https://github.com/Kry9toN/Bot-Haven#readme",
-   "repository":"https://github.com/Kry9toN/Bot-Haven.git",
-   "logo":"https://i.ibb.co/mzcSXdy/koboo.png",
-   "success_url":"/",
-   "env":{
-      "NAME":{
-         "description":"Name of your bot",
-         "required":true
-       } 
-      }
-  } 
+  "name": "your-unique-app-name",
+  "description": "Your Remix.js App Description",
+  "repository": "https://github.com/your-username/your-repository",
+  "logo": "https://your-logo-url.com/logo.png",
+  "keywords": ["remix", "typescript", "nextui", "tailwindcss", "stitches", "swiperjs", "i18n", "supabase", "radix-ui", "framer-motion", "zustand", "artplayer", "lru-cache", "tinycolor"],
+  "env": {
+    "NODE_ENV": {
+      "description": "Node.js environment",
+      "value": "production"
+    },
+    "PORT": {
+      "description": "Port for the app to run on",
+      "value": 3000
+    },
+    // Add any other environment variables your app requires
+  },
+  "scripts": {
+    "postdeploy": "pnpm build"
+    // Add any other scripts your app needs to run after deployment
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    // Add any necessary Heroku add-ons for your app
+  ]
+}
