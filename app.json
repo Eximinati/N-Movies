@@ -8,20 +8,8 @@
    ],
    "website": "https://small-sharp-tool.com/",
    "repository": "https://github.com/jane-doe/small-sharp-tool",
-   "logo": "https://small-sharp-tool.com/logo.svg",
-   "success_url": "/welcome",
-   "scripts": {
-     "postdeploy": "bundle exec rake bootstrap"
-   },
+   "logo": "https://avatars.githubusercontent.com/u/72595444?v=4",
    "env": {
-     "NODE_ENV": {
-       "description": "Node.js environment",
-       "value": "production"
-     },
-     "PORT": {
-       "description": "Port for the app to run on",
-       "value": 3000
-     },
      "SUPABASE_DEV_URL": {
        "description": "Supabase development URL",
        "value": "https://dfrrijclhftnvrzawagb.supabase.co"
@@ -38,5 +26,16 @@
        "description": "Responsive images configuration",
        "value": "ON"
      }
-   }
-} 
+   },
+    "buildpacks": [
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }
+    ]
+  }
