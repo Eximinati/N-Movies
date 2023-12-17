@@ -15,7 +15,7 @@
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "lint:fix": "npm run lint --fix",
     "postinstall": "remix setup node",
-    "prebuild": "npm cleanup",
+    "prebuild": "npm run cleanup",
     "prepare": "husky install",
     "prettier": "prettier app --check",
     "prettier:fix": "prettier app --write",
