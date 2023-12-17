@@ -4,6 +4,9 @@
   "repository": "https://github.com/your-username/your-repository",
   "logo": "https://your-logo-url.com/logo.png",
   "keywords": ["remix", "typescript", "nextui", "tailwindcss", "stitches", "swiperjs", "i18n", "supabase", "radix-ui", "framer-motion", "zustand", "artplayer", "lru-cache", "tinycolor"],
+  "engines": {
+    "node": "18.x" // Use "18.x" for Node.js 18, or specify another version like "14.x" for Node.js 14
+  },
   "env": {
     "NODE_ENV": {
       "description": "Node.js environment",
@@ -13,6 +16,22 @@
       "description": "Port for the app to run on",
       "value": 3000
     },
+    "SUPABASE_DEV_URL": {
+      "description": "Supabase development URL",
+      "value": "https://dfrrijclhftnvrzawagb.supabase.co"
+    },
+    "SUPABASE_DEV_KEY": {
+      "description": "Supabase development key",
+      "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRmcnJpamNsaGZ0bnZyemF3YWdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTY4Njc2NjUsImV4cCI6MjAxMjQ0MzY2NX0.ZjNhPhXtB9JE-cya3WJeCqMEeauLxQbHlDIuwHYl7e0"
+    },
+    "TMDB_API_KEY": {
+      "description": "TMDB API key",
+      "value": "ebf0b69d7a3e3a45904485dadcb07eac"
+    },
+    "RESPONSIVE_IMAGES": {
+      "description": "Responsive images configuration",
+      "value": "ON"
+    }
     // Add any other environment variables your app requires
   },
   "scripts": {
