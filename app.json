@@ -1,11 +1,17 @@
 {
-  "name": "your-unique-app-name",
-  "description": "Your Remix.js App Description",
-  "repository": "https://github.com/your-username/your-repository",
-  "logo": "https://your-logo-url.com/logo.png",
-  "keywords": ["remix", "typescript", "nextui", "tailwindcss", "stitches", "swiperjs", "i18n", "supabase", "radix-ui", "framer-motion", "zustand", "artplayer", "lru-cache", "tinycolor"],
-  "engines": {
-    "node": "18.x" // Use "18.x" for Node.js 18, or specify another version like "14.x" for Node.js 14
+  "name": "Small Sharp Tool",
+  "description": "This app does one little thing, and does it well.",
+  "keywords": [
+    "productivity",
+    "HTML5",
+    "scalpel"
+  ],
+  "website": "https://small-sharp-tool.com/",
+  "repository": "https://github.com/jane-doe/small-sharp-tool",
+  "logo": "https://small-sharp-tool.com/logo.svg",
+  "success_url": "/welcome",
+  "scripts": {
+    "postdeploy": "bundle exec rake bootstrap"
   },
   "env": {
     "NODE_ENV": {
@@ -32,18 +38,4 @@
       "description": "Responsive images configuration",
       "value": "ON"
     }
-    // Add any other environment variables your app requires
-  },
-  "scripts": {
-    "postdeploy": "pnpm build"
-    // Add any other scripts your app needs to run after deployment
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-    // Add any necessary Heroku add-ons for your app
-  ]
-}
+  }
